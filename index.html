@@ -30,7 +30,7 @@
             <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</a>
           </li>
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Floor Plans</a>
+            <a href="./floorplans.html" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Floor Plans</a>
           </li>
           <li>
             <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Apply Now</a>
@@ -54,18 +54,21 @@
     </div>
   </nav>
   <!--Hero-->
-  <section class="relative isolate overflow-hidden border-b-2 border-indigo-500 h-screen xs:h-full">
-    <img src="./img/building.jpg" alt="" class="bg-gradient-to-b from-black to-transparent absolute inset-0 -z-10 h-full w-full object-cover">
+  <section class="relative isolate overflow-hidden border-b-2 border-indigo-500 h-screen flex items-center">
+    <img src="./img/building.jpg" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover">
     <div class="py-12 sm:mx-auto lg:max-w-7xl md:max-w-5xl max-w-4xl sm:px-10 px-4">
        <!-- <a href="#" class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700" role="alert">
            <span class="text-sm font-medium mx-2">See available floorplans</span> 
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
         </a> -->
-        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl dark:text-white">Weatherly Lofts</h1>
+        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white">Weatherly Lofts</h1>
+        <h1 class="mb-4 text-xl tracking-tight leading-none text-white md:text-2xl lg:text-4xl">Historic aparments located in the heart of Elizabeth City</h1>
+
         <div class="py-4 rounded">
             <a href="https://app.propertyware.com/pw/application/#/tenant/greatrichmondrentals" class="inline-flex items-center text-center py-2 px-4 text-sm text-gray-900 rounded border border-white bg-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-100">
                 Apply Now
-            </a>  
+            </a> 
+                
         </div>
         
     </div>
@@ -76,7 +79,6 @@
         <div>
           <div class="grid lg:grid-cols-2 lg:gap-x-12 ">
             <div class="mb-4">
-              <caption class="font-normal text-sm text-indigo-600">Come and join us at</caption>
               <h2 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">Weatherly Lofts</h2>
             </div>
     
@@ -118,19 +120,19 @@
       <!-- Carousel wrapper -->
       <div class="relative h-56 overflow-hidden md:h-96">
            <!-- Item 1 -->
-          <div class="duration-700 ease-in-out" data-carousel-item>
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
               <img src="/img/bathroom.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
           </div>
           <!-- Item 2 -->
-          <div class="duration-700 ease-in-out" data-carousel-item="active">
+          <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
               <img src="/img/bedroom.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
           </div>
           <!-- Item 3 -->
-          <div class="duration-700 ease-in-out" data-carousel-item>
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
               <img src="/img/kitchen.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
           </div>
           <!-- Item 4 -->
-          <div class="duration-700 ease-in-out" data-carousel-item>
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
               <img src="/img/livingroom.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
           </div>
       </div>
@@ -158,6 +160,8 @@
       <div class="flex flex-col mb-6">
         <p class="my-1 font-bold text-sm">Address:</p>
         <p class="text-md">225 N Water Street Elizabeth City, NC 27909</p>
+        <p class="my-1 font-bold text-sm">Phone:</p>
+        <p class="text-md">252-220-2039</p>
       </div>
       <iframe class="w-full rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3215.4651277779635!2d-76.22090448471398!3d36.3010260033381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89a5457520dd9287%3A0xb996e951c62251fe!2sWeatherly%20Lofts!5e0!3m2!1sen!2sus!4v1678066828522!5m2!1sen!2sus" width="" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
@@ -270,7 +274,7 @@
   </div>
   <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
   <div class="sm:flex sm:items-center sm:justify-between">
-      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">LeotaDesigns™</a>. All Rights Reserved.
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Weatherly Lofts</a>. All Rights Reserved.
       </span>
       <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
           <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
